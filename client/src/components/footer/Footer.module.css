@@ -1,0 +1,32 @@
+.container {
+    background-color: #124d51;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.contact a {
+    color: white;
+}
+
+.container > div {
+    margin: 25px;
+}
+
+.social {
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    background-color: #dcdcdc;
+}
+
+@media only screen and (max-width: 575.98px) {
+    .container {
+        flex-flow: column;
+    }
+}

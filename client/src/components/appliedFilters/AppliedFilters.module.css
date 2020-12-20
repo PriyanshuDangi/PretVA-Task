@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 20px;
+}
+
+.title {
+    margin-right: 40px;
+}
+
+.appliedFilters {
+    display: flex;
+}
+
+.appliedFilters > div {
+    margin-right: 10px;
+    padding: 2px 3px 2px 6px;
+    border-radius: 15px;
+    background-color: #e5e5e5;
+}
+
+.appliedFilters button {
+    text-decoration: none;
+    border: none;
+    background-color: inherit;
+    font-size: 0.7rem;
+    vertical-align: middle;
+    /* margin-left: 4px; */
+}
+
+@media only screen and (max-width: 767.98px) {
+    .container {
+        flex-flow: column;
+        justify-content: center;
+    }
+    .filterscontainer {
+        width: 95%;
+    }
+    .appliedFilters > div {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 575.98px) {
+    .clearAll {
+        display: none;
+    }
+}

@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container Button {
+    font-size: 1.3 rem;
+    padding: 15px !important;
+}
+
+.button1 Button {
+    border-radius: 20px 0 0 20px;
+    margin-right: 5px;
+}
+
+.button2 Button {
+    border-radius: 0 20px 20px 0;
+    background-color: #fdec94;
+    margin-left: 5px;
+}
+
+.button1 Button:hover {
+    color: black;
+    background-color: white;
+}
+
+.button2 Button:hover {
+    color: black;
+    background-color: #fdec94;
+}
+
+@media only screen and (max-width: 575.98px) {
+    .container Button {
+        font-size: 1rem;
+        padding: 5px !important;
+    }
+}

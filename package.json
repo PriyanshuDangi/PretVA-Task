@@ -1,0 +1,22 @@
+{
+  "name": "assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "format": "prettier --print-width 120 --jsx-bracket-same-line --no-bracket-spacing --single-quote --tab-width 4 --write \"**/*.+(js)\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "prettier": "^2.2.1"
+  }
+}

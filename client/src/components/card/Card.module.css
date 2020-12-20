@@ -1,0 +1,77 @@
+.container {
+    border: 4px solid #e5e5e5;
+    width: 350px;
+    padding: 15px;
+    border-radius: 20px;
+    margin: 10px;
+    font-weight: 300;
+    /* max-width: 320px; */
+    /* width: 100%; */
+}
+
+.box1 {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.userImg {
+    /* height: 74px; */
+    width: 74px;
+    margin: 5px;
+    margin-right: 15px;
+    border-radius: 25%;
+}
+
+.box2 {
+    margin-bottom: 25px;
+}
+
+.box2 > div {
+    margin-bottom: 5px;
+}
+
+.requirement {
+    display: flex;
+}
+
+.requirement > div {
+    color: #bdbdbd;
+    font-size: 12px;
+    margin: auto;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.company {
+    font-size: 12px;
+}
+
+.weiandquan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons {
+    font-size: 24px;
+}
+
+.icons:hover {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 575.98px) {
+    .container {
+        font-size: 14px;
+        width: 90%;
+        padding: 2%;
+        margin: auto;
+    }
+    .company {
+        font-size: 12px;
+    }
+}
